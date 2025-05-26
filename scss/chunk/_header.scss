@@ -31,6 +31,7 @@
     text-decoration: none;
     color: $main-text-color;
     font-family: $font-title-subtitle;
+    transition: 1s;
   }
   &__link:hover {
     text-decoration: underline;
