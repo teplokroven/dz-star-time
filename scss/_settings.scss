@@ -1,0 +1,18 @@
+@use './vars' as *;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3f6485;
+  font-weight: 400;
+  color: $main-text-color;
+  margin: 0;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

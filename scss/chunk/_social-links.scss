@@ -1,0 +1,19 @@
+@use '../vars' as *;
+
+.social-links {
+  
+  &__tg {
+    display: flex;
+    align-items: center;
+  }
+
+  &__tg-icon {
+    margin-right: 15px;
+  }
+
+  &__link {
+    color: $second-text-color;
+    font-size: 36px;
+    font-family: sans-serif;
+  }
+}

@@ -1,0 +1,40 @@
+@use '../vars' as *;
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 120px 0;
+
+  &-container {
+    max-width: 100%;
+    min-width: 1240px;
+  }
+
+  &__subtitle {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 90px;
+  }
+
+  &__text {
+    margin: 0;
+    max-width: 1200px;
+    text-align: center;
+    font-size: 36px;
+    font-family: sans-serif;
+  }
+
+  &__link {
+    color: $second-text-color;
+    font-family: sans-serif;
+  }
+
+  &__link:active {
+    color: $second-text-color;
+  }
+
+  &__wrap-links {
+    display: flex;
+    justify-content: space-between;
+  }
+}

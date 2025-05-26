@@ -1,0 +1,35 @@
+.solar-fotos {
+
+  &__subtitle {
+    text-align: center;
+    margin-bottom: 90px;
+  }
+
+  &__group-foto {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 55px;
+  }
+
+  &__item {
+    font-size: 36px;
+    font-family: sans-serif;
+  }
+
+  &__item::marker {
+    font-size: 15px;
+    transform: translateY(-50%);
+  }
+
+  &__img {
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 20px;
+    transition: .3s;
+  }
+  
+  &__img:hover {
+    scale: 1.25;
+  }
+}

@@ -1,0 +1,65 @@
+@use './vars' as *;
+
+.section {
+
+  &--bgc-main {
+    background-color: $main-bgr-color;
+  }
+
+  &--bgc-second {
+    background-color: $second-bgr-color;
+  }
+
+  &--hero {
+    padding-top: 120px;
+    padding-bottom: 370px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  &--about {
+    padding: 380px 0;
+    overflow: hidden;
+    position: relative;
+  }
+
+  &--common-paddings {
+    padding: 120px 0;
+  }
+}
+
+.title {
+  margin: 0;
+  font-family: $font-title-subtitle;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.subtitle {
+  margin: 0;
+  font-family: $font-title-subtitle;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.text {
+  margin: 0;
+  font-size: 40px;
+  font-family: $font-text;
+}
+
+.second-text {
+  color: $second-text-color;
+}
+
+.img--animation {
+  position: absolute;
+  animation: rotate 50s linear infinite;
+}
+
+@keyframes rotate {
+
+  to {
+    transform: rotate(360deg);
+  }
+}

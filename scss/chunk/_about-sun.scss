@@ -1,0 +1,19 @@
+.about-sun {
+  
+  &__second-title {
+    text-align: end;
+    margin-bottom: 90px;
+  }
+
+  &__text {
+    text-align: end;
+  }
+
+  &__img {
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    right: 85%;
+    max-width: 940px;
+  }
+}
